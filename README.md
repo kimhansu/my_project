@@ -1,1 +1,1 @@
-hskim_project
+hskim-project
