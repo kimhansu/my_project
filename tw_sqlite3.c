@@ -16,7 +16,7 @@
 #define TW_SQLITE_LOG_GREEN(fmt, args ...)		printk_co(GREEN,	"## %5d, %-30s ##, " fmt, __LINE__, __func__, ## args)
 #define TW_SQLITE_UNDEF(fmt, args ...)
 
-//#define TW_SQLITE_DEBUG
+#define TW_SQLITE_DEBUG
 #ifdef TW_SQLITE_DEBUG
 #define _LOG			TW_SQLITE_LOG
 #else
